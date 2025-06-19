@@ -25,8 +25,8 @@ export default async function handler(req, res){
 
         이거에 맞는 점심메뉴 랜덤으로 하나만 추천해줘. 추천 메뉴 이름과 그 메뉴와 궁합이 좋은 메뉴 또는 음료를 추천해.
         결과는 이 형식으로 표시해
-        메뉴: [추천 메뉴 이름]
-        베스트 궁합: [궁합이 좋은 메뉴 또는 음료]
+        메뉴 : [추천 메뉴 이름]
+        베스트 궁합 : [궁합이 좋은 메뉴 또는 음료]
         `;
         
         const result = await ai.models.generateContent({
