@@ -31,4 +31,4 @@
 - 구글 Gemini API 호출을 위한 API KEY가 노출되지 않도록 프론트엔드의 요청을 받아 Gemini API를 호출해주는 API 백엔드를 구성하였습니다.
 - 해당 백엔드는 Vercel에 배포했습니다.
 - 코드 및 구현 내용은 아래 링크에서 확인하실 수 있습니다.
-  - https://github.com/ssseen/menu_rec-api
+  - https://github.com/ssseen/menu_rec
